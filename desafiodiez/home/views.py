@@ -8,13 +8,13 @@ def home(request):
     <h2><b>Este es nuestro home :D </b></h2>
     <p>Integrantes del grupo <b><u>Pythoneers</u>:</b></p> 
     <ul>
-        <li>Yrala Fabian</li>
-        <li>Morinigo Pedro</li>
-        <li>Sosa Fogar Yamila Noel</li>
-        <li>Palacios Meyer Néstor Gustavo</li>
-        <li>Cuquejo Daira</li>
-        <li>Bazan Julio Pablo Federico</li>
-        <li>Gonzalez Juan Ignacio</li>
+        <li style="color:blue";>Yrala Fabian</li>
+        <li style="color:blue";>Morinigo Pedro</li>
+        <li style="color:red";>Sosa Fogar Yamila Noel</li>
+        <li style="color:blue";>Palacios Meyer Néstor Gustavo</li>
+        <li style="color:red";>Cuquejo Daira</li>
+        <li style="color:blue";>Bazan Julio Pablo Federico</li>
+        <li style="color:blue";>Gonzalez Juan Ignacio</li>
         <a href='/'>Volver a la página principal</a>
     </ul>''')
 
