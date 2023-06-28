@@ -10,12 +10,12 @@ def home(request):
     <ul>
         <li style="color:blue";>Yrala Fabian</li>
         <li style="color:blue";>Morinigo Pedro</li>
-        <li style="color:red";>Sosa Fogar Yamila Noel</li>
+        <li style="color:blue";>Sosa Fogar Yamila Noel</li>
         <li style="color:blue";>Palacios Meyer Néstor Gustavo</li>
-        <li style="color:red";>Cuquejo Daira</li>
+        <li style="color:blue";>Cuquejo Daira</li>
         <li style="color:blue";>Bazan Julio Pablo Federico</li>
         <li style="color:blue";>Gonzalez Juan Ignacio</li>
-        <a href='/'>Volver a la página principal</a>
+        <a style="background:grey" href ='/'>Volver a la página principal</a>
     </ul>''')
 
 def about(request): #buscar forma de linkear css en django
