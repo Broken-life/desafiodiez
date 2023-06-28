@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('''<h1>¡Hola Lucas!</h1> 
+    return HttpResponse('''<h1 style='color:red'>¡Hola Lucas!</h1> 
     <h2><b>Este es nuestro home :D </b></h2>
     <p>Integrantes del grupo <b><u>Pythoneers</u>:</b></p> 
     <ul>
