@@ -15,6 +15,7 @@ def home(request):
         <li>Cuquejo Daira</li>
         <li>Bazan Julio Pablo Federico</li>
         <li>Gonzalez Juan Ignacio</li>
+        <a href='/'>Volver a la página principal</a>
     </ul>''')
 
 def about(request): #buscar forma de linkear css en django
