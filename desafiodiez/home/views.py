@@ -1,8 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
-
-
+# crear tus vistas aquí
 def home(request):
     return HttpResponse('''<h1 style='color:red'>¡Hola Lucas!</h1> 
     <h2><b>Este es nuestro home :D </b></h2>
